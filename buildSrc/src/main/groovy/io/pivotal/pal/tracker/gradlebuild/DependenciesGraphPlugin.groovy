@@ -21,7 +21,7 @@ class DependenciesGraphPlugin implements Plugin<Project> {
                 mustRunAfter "clean"
                 group = "DependenciesGraph"
                 description = "Generate DOT file"
-
+DependenciesGraphPlugin
                 def graphBuildDir = "build/dependenciesGraph"
                 def dotFile = file "$graphBuildDir/graph.dot"
 
