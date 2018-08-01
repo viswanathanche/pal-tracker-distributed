@@ -36,7 +36,7 @@ jobs:
           - "applications/timesheets-server/build/libs/timesheets-server.jar"
         skip_cleanup: true
     - stage: deploy
-      language: java
+      language: javahttp://FILL_ME_IN
       script:
         - echo "Downloading allocations server $RELEASE_TAG"
         - wget -P applications/allocations-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed/releases/download/$RELEASE_TAG/allocations-server.jar
